@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/* reset */
+/*body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+    text-align: center;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+*/
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+body {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	background-color: orange;
+}
+#touroku{
+    width: 80%;
+	margin: 0 auto;
+	margin-top: 100px;
+    text-align: center;
+	align-items: center;
+	color: white;
+	box-shadow: 0px 0px 0px 10px orange;
+    border: dashed 2px white;
+}
+p{
+    margin: 0 auto;
+    font-size: 25px;
+	color: white;
+	text-align: center;
+}
+
+.name{
+    display: block;
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 800px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 3px;
+	padding-left: 150px;
+	color: white;
+}
+.birth{
+    display: block;
+	margin: 0 auto;
+	width: 800px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 3px;
+	padding-left: 190px;
+	color: white;
+}
+.email{
+    display: block;
+	margin: 0 auto;
+	width: 800px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 3px;
+	padding-left: 110px;
+	color: white;
+}
+.password{
+    display: block;
+	margin: 0 auto;
+	width: 800px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 3px;
+	padding-left: 150px;
+	color: white;
+}
+.check{
+	display: block;
+	margin: 0 auto;
+	width: 800px;
+    height: 50px;
+    font-size: 20px;
+	padding-left: 140px;
+	color: white;
+}
+#name{
+	margin:  0 auto;
+	width: 300px;
+	height: 30px;
+	margin-left: 50px;
+	border-radius: 3px;
+}
+#birth{
+	width: 300px;
+	height: 30px;
+	margin-left: 50px;
+	border-radius: 3px;
+}
+#email{
+	width: 300px;
+	height: 30px;
+	margin-left: 50px;
+	border-radius: 3px;
+}
+#password{
+	width: 300px;
+	height: 30px;
+	margin-left: 50px;
+	border-radius: 3px;
+}
+#check{
+	width: 300px;
+	height: 30px;
+	margin-left: 20px;
+	border-radius: 3px;
+}
+#back{
+	margin: 0 auto;
+	background-color: blue;
+	color: white;
+	width: 150px;
+	height: 50px;
+	margin-left: 500px;
+}
+button{
+	margin: 0 auto;
+	margin-top: 50px;
+	background-color: orangered;
+	color: white;
+	width: 150px;
+	height: 50px;
+}
